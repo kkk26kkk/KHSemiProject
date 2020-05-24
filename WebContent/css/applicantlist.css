@@ -1,0 +1,23 @@
+body{
+  margin: 0 auto;
+}
+table{
+	width : 1000px;
+}
+tr:first-child{
+	background-color : #3399ff;
+}
+th{
+	padding : 14px 0 16px 0;
+	border-bottom : 1px solid ##3399ff;
+	font-size : 17px;
+	line-height : 120%;
+	letter-spacing : -1px;
+	color : white;
+}
+td{
+	padding-top: 20px;	
+}
+tr:hover td {
+   background: #ebeef3;
+}

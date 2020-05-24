@@ -1,0 +1,274 @@
+
+body{
+    margin: 0;
+  }    
+  a{
+    text-decoration: none;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  #header{
+    width:100%;
+    height: 151px;
+    text-align: center;
+    position: relative;
+  }
+  
+  #navbar{
+	border-top: 1px solid #ebeef3;  
+    border-bottom: 1px solid #3399ff;
+    position: relative;
+    z-index: 999;
+  }
+  
+  #navinner{
+    width: 1300px;
+    margin: 0 260px;
+  }
+  
+  #logo{
+    margin: 0 auto;
+    height: 100px;
+  }
+  
+  .subject, #mymenu{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 51px;    
+  	padding: 13px 13px 0 13px;
+  	font-size :1.2em;
+    font-weight: bold;
+    color: #3399ff;
+    position: relative;
+    letter-spacing: -1px;
+/*     border-left: 1px solid #ebeef3; */
+  }
+  
+  #mymenu{
+  	position: relative;
+  	width: 50px;
+  	left: 30px;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  
+  #mymenu > img{
+    position: relative;
+    top: 6px;
+    width: 30px;
+    height: 29px;
+  }
+  
+  #eumenu{
+  	box-sizing: border-box;
+  	padding: 16px 13px 13px 13px;
+    position: relative;
+  	width: 50px;
+  	height: 51px;
+  	left: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+  
+  .subject span{
+    font-size :1.2em;
+    font-weight: bold;
+    color: #3399ff;
+  }
+  
+  .subject:hover{
+    background: #3399ff;
+    color: #fff;
+  }
+  
+  #cursoron{
+    border-top: 1px solid #3399ff;
+    margin-top: 1px;
+    width: 100%;
+    height: 200px;
+    display: none;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  #cursorinner{
+    width: 1200px;
+    height: 200px;
+    margin: 0 360px;
+  }
+  
+  #cursorinner ul{    
+    display: inline-block;
+    position: absolute;
+    height: 150px;
+  }
+  
+  #region{
+    left: 482px;
+  }
+  
+  #entreview{
+    left: 640px;
+  }
+  
+  #salaryinfo{
+    left: 840px;
+  }
+  
+  #interview{
+    left: 1040px;
+  }
+  
+  #cursorinner ul > li {
+    padding-bottom: 20px;
+  }
+  
+  #cursorinner ul > li a{
+    letter-spacing: -1px;
+    font-size: 1.05em;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  #cursorinner ul > li a:hover{
+    text-decoration: underline;
+  }
+  
+  #mynav{
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    margin: 1px 0 0 0;
+    width: 180px;
+    left: 1210px;
+    display: none;
+    border: 1px solid #666;
+  }
+  #mynav ul, #eunav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px 20px 0;
+  }  
+  #mynav ul li, #eunav ul li{
+    width: 100%;
+    padding: 10px;
+  }  
+  #mynav ul li a, #eunav ul li a{
+    letter-spacing: -1px;
+    font-size: 0.8em;
+    color: #666; 
+  }  
+  #mynav ul li:hover, #eunav ul li:hover{
+    background: #666;
+  }
+  
+  #eunav{
+  	position: absolute;
+    z-index: 2;
+    background: #fff;
+    margin: 1px 0 0 0;
+    width: 180px;
+    left: 1310px;
+    display: none;
+    border: 1px solid #666;
+  }
+  
+  #gulogin, #eulogin{
+    height: 70px;
+    border-bottom: 1px solid #ebeef3;
+  }
+  
+  #gulogin a, #eulogin a{
+    display: inline-block;
+    padding: 10px;
+  	font-size: 0.8em;
+  }
+  
+  #guloginbtn, #euloginbtn{
+  	background: #3399ff;
+  	color: #fff;
+  	border: 1px solid #3399ff;
+  	position: absolute;
+    top: 15px;
+    left: 18px;
+  }
+  
+  #gujoinbtn, #eujoinbtn{
+    border: 1px solid #666;
+    color: #000;
+    position: absolute;
+    top: 15px;
+    left: 90px;
+  }
+  
+  #gulogin_n, #eulogin_n{
+    height: 85px;
+    border-bottom: 1px solid #ebeef3;
+  }
+  
+  #gulogin_n span, #eulogin_n span{
+    position: absolute;
+    top: 10px;
+/*     left: 45px; */
+  }
+  
+  .iddiv{
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  #gulogin_n a, #eulogin_n a{
+    padding: 3px;
+  	font-size: 0.8em;
+  	border: 1px solid #666;
+  	color: #000;
+  	font-weight: 500;
+  }
+  
+  #guuptinfo, #euuptinfo{
+    position: absolute;
+    top: 42px;
+    left: 22px;
+  }
+  
+  #gulogoutbtn, #eulogoutbtn{
+    position: absolute;
+    top: 42px;
+    left: 98px;
+  }
+  
+/*   #eulogin{ */
+/*     height: 70px; */
+/*     border-bottom: 1px solid #ebeef3; */
+/*   } */
+  
+/*   #eulogin a{ */
+/*     display: inline-block; */
+/*     padding: 10px; */
+/*   	font-size: 0.8em; */
+/*   } */
+  
+/*   #euloginbtn{ */
+/*   	background: #3399ff; */
+/*   	color: #fff; */
+/*   	border: 1px solid #3399ff; */
+/*   	position: absolute; */
+/*     top: 15px; */
+/*     left: 18px; */
+/*   } */
+  
+/*   #eujoinbtn{ */
+/*     border: 1px solid #666; */
+/*     color: #000; */
+/*     position: absolute; */
+/*     top: 15px; */
+/*     left: 90px; */
+/*   } */

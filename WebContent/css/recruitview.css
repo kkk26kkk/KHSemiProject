@@ -1,0 +1,158 @@
+
+#viewmain{
+	width: 100%;
+	background: #ebeef3;
+	padding-bottom: 300px;
+}
+
+#viewwrap{
+	margin: 0 480px;
+	background: #fff;
+}
+
+#viewtitle, #sebune{
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: -2px;	
+	margin: 0;
+	padding: 20px 0 20px 6px;
+	background: #ebeef3;
+}
+
+#info{
+	position: relative;
+/*     width: 918px; */
+    height: 260px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin-bottom: 30px;
+}
+
+.ename{
+	margin: 0;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.esubject{
+	margin-top: 8px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    font-size: 28px;
+    font-weight: 400;
+    width: 720px;
+}
+
+.logo{
+	position: absolute;
+    right: 55px;
+    top: 50px;
+}
+
+.info2{
+	margin-top: 20px;
+	width: 935px;
+	float: left;
+	position: relative;
+}
+
+.jiwonja, .geunmujogeon, .giupjungbo{
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.info2 dl, .info3 dl{
+	margin: 0;
+}
+.info2 dl > dt{
+	margin-top: 6px;
+	display: inline-block;
+	font-size: 0.8em;
+	color: #666;
+}
+.info2 dl > dd{
+	display: inline-block;
+	margin-left: 7px;
+	font-size: 0.8em;
+}
+
+.info3{
+	position: absolute;
+    top: 0;
+    left: 350px;
+}
+
+.info4{
+	position: absolute;
+    top: 0;
+    left: 750px;
+}
+
+.applybtn{
+	background: #ff7e00;
+    padding: 6px;
+    letter-spacing: -1px;
+    width: 500px;
+    height: 60px;
+    display: block;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#infocontent, #hwangyung{
+	padding: 30px;
+	position: relative;
+	margin: 0 480px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+#applydiv{
+	position: relative;
+	margin: 0 480px;
+	margin-bottom: 30px;
+}
+
+#map{
+    margin: 15px auto;
+    border: 1px solid #666;
+    width:880px; 
+    height:300px;
+  }
+
+.h2t{
+	margin: 0 0 5px 0;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 1px solid #666;
+}
+
+.ul2{
+	padding: 0;	
+}
+.ul2 li{
+	padding: 5px;
+	letter-spacing: -1px;
+}
+
+.hwan{
+	margin-bottom: 20px;	
+}
+
+.bokri{
+	margin: 0 20px 0 5px;
+	color: #666;
+	letter-spacing: -1px;
+	font-size: 12px;
+}
+
+.boheom{
+	letter-spacing: -1px;
+	font-size: 13px;
+}

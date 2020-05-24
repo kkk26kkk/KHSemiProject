@@ -1,0 +1,60 @@
+@charset "UTF-8";
+  body{
+    text-align: center;	/*글씨 가운데 정렬*/
+    background: #ebecef;/*form 뺀 배경색*/
+    margin: 0 auto;		/*가운데 정렬*/
+  	}
+  
+  form{
+  	background:#fefefe;	/*배경색*/
+  	width:326px;			/*박스 세로크기*/
+  	height:350px;
+  	margin: 15% auto 25% auto;
+  	padding: 34px 30px 0;
+    padding-top: 20px;
+  	}
+  
+  h1{
+  	font-size: 26px;
+    font-weight: normal;
+    color: #444;
+    vertical-align: top;
+  }
+  
+  input[type=text],[type=password]{
+  	border: 1px solid #ccc;
+    background: #ffffff;
+    width: 298px;
+    margin: 5px 0 20px 0;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 5px;/*선이 둥글게 됨*/
+    font-size:15px;
+  	}
+  
+  input[type=submit]{/*로그인 버튼*/
+  	border: 1px solid #3399ff;
+  	background:#3399ff;
+  	color:#fff;
+  	font-weight: bold;/*글씨 진하게*/
+  	width: 298px;
+  	margin: 15px 0 20px 0;
+  	padding: 12px;
+  	border-radius: 5px;
+  	font-size:15px;
+  }
+  
+   .gujoin p.gujoin_check {
+   line-height: 18px;
+   font-size: 15px;
+   color: #444;
+   text-align:center;
+  }
+  
+ 	.gujoin p.gujoin_check a{
+  	color:#3399ff;
+  	font-weight: bold;
+  	text-decoration: none;
+  	line-height: 18px;
+  	padding-left: 18px;
+  }

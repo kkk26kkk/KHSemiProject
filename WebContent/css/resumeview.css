@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	height: 1500px;
+}
+
+#pviewwrap {
+	width: 100%;
+	height: 2500px;
+	background: #ebeef3;
+}
+
+#pview {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#injeok {
+	width: 830px;
+	height: 120px;
+	background: #fff;
+	padding-left: 170px;
+	padding-top: 30px;
+	width: 830px;
+}
+
+#injeoktitle {
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 60px;
+	border-bottom-style: groove;
+}
+
+#hakryeok {
+	width: 830px;
+	height: 120px;
+	background: #fff;
+	padding-left: 170px;
+	padding-top: 60px;
+	width: 830px;
+}
+
+#hakryeoktitle {
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 60px;
+	border-bottom-style: groove;
+}
+
+#rank {
+	width: 830px;
+	height: 120px;
+	background: #fff;
+	padding-left: 170px;
+	padding-top: 60px;
+	width: 830px;
+}
+
+#ranktitle {
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 60px;
+	border-bottom-style: groove;
+}
+
+#huimang {
+	height: 260px;
+	background: #fff;
+}
+
+#huimangtitle {
+	width: 1000px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 60px;
+	border-bottom-style: groove;
+	padding-bottom: 20px;
+}
+
+#certname {
+	width: 830px;
+	height: 120px;
+	background: #fff;
+	padding-left: 170px;
+	padding-top: 60px;
+	width: 830px;
+}
+
+#certnametitle {
+	width: 1000px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 60px;
+	border-bottom-style: groove;
+	padding-bottom: 20px;
+}
+
+#rating {
+	width: 830px;
+	height: 120px;
+	background: #fff;
+	padding-left: 170px;
+	padding-top: 60px;
+	width: 830px;
+}
+
+#ratingtitle {
+	width: 1000px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 60px;
+	border-bottom-style: groove;
+	padding-bottom: 20px;
+}
+
+#prsubject {
+	height: 120px;
+	background: #fff;
+	padding-left: 170px;
+	padding-top: 60px;
+	width: 830px;
+}
+
+#prsubjecttitle {
+	width: 1000px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 60px;
+	border-bottom-style: groove;
+	padding-bottom: 20px;
+}
+
+table, td, th {
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 15px;
+}
+
+#but {
+	margin: 0 auto;
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+}

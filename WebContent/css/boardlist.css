@@ -1,0 +1,124 @@
+@charset "UTF-8";
+body{
+	
+	background-color: white;
+}
+#wrap {
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+
+#topForm {
+	text-align: right;
+}
+
+table {
+	width: 1250px;
+	border-collapse: collapse;
+	border: floralwhite;
+	margin: auto;
+	
+}
+
+a{text-decoration: none;
+text-align: center;}
+p {
+	margin: 0px;
+	padding: 20px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Arial Black", sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.s1 {
+	color: 3399ff;
+	text-shadow: 4px 4px 0px #bdbdbd;
+}
+td:nth-child(2){
+text-align: left;
+text-shadow: 3px 3px 2px #bdbdbd
+}
+tr:hover{background-color:#ebeef3 ;
+} 
+tr {
+	text-align: center;
+}
+
+#a1 {
+	text-align: left;
+}
+
+th{
+	background-color: gray;
+	color: white;
+}
+th:nth-last-child(){
+text-decoration: none;
+}
+tr:nth-child(odd) {
+	
+}
+.button {
+  background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.pagination {
+text-align: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+dl{width: 255px;
+    margin: auto;
+    text-align: center;}
+    
+#but{
+	margin: 0 auto; background-color : DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: DodgerBlue;
+	background-color: DodgerBlue;
+}     
+    
+    
+    
+    
+    

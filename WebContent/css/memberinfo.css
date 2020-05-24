@@ -1,0 +1,49 @@
+@charset "UTF-8";
+{
+	*{background:#ebeef3;
+	  box-sizing: border-box;};
+}
+  form{
+  	border: 1px solid #888;	/*배경색 선*/
+  	background:#fefefe;		/*배경색*/
+  	width:30%;			/*박스 세로크기*/
+  	margin: 5% auto 15% auto;/**/
+  	padding: 52px;
+  }
+  input[type=text],[type=password]
+  ,[type=email],[type=number]{
+  	border: none;
+    background: #f1f1f1;
+    width: 410px;
+    margin: 10px 0 30px 0;
+    padding: 15px;
+	}
+	
+	#idcheck {/*id중복검색*/
+    border:none;
+  	background:#1F89FD;
+  	color:#fff;
+    width: 100px;
+    padding: 13px;
+  	text-ailgn:center;
+	}
+  
+  input[type=submit]{/*회원가입 버튼*/
+  	border:none;
+  	background:#3399ff;;
+  	color:#fff;
+  	width: 50%;
+  	padding: 12px;
+  	text-ailgn:center;
+  	float:left;
+  }
+  
+  input[type=reset]{/*취소버튼*/
+ 	border:none;
+  	background:#ff2105;
+  	color:#fff;
+  	width: 50%;
+  	padding: 12px;
+  	text-ailgn:center;
+ 	
+  }

@@ -1,0 +1,66 @@
+  .list *{
+    letter-spacing: -1px;
+  }
+  
+  body{
+    margin: 0 auto;
+    background: #ebeef3;
+    padding-bottom: 50px;
+  }
+  #eumainwrap{
+  	position: relative;
+    width: 100%;
+    background: #ebeef3;
+  }
+  #eumaincontainer{
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    padding: 50px;
+    background: #fff;
+  }
+  #eumaincontainer2{
+    padding-top: 50px;
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    padding: 50px;
+   	background: #fff;
+  }
+  
+  .list{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+  }
+  tr:hover {
+    background: #a7d3ff;
+  }
+  th{
+	padding : 14px 0 16px 0;
+	font-size : 17px;
+	line-height : 120%;
+	letter-spacing : -1px;
+	color : white;
+	border: 1px solid #3399ff;
+	background: #3399ff;
+  }
+  td{
+	padding: 20px;
+   	border: 1px solid #666;
+   }
+   #title {
+   	 text-align : left;
+   	 letter-spacing: -1px;
+   	 margin: 10px 0 20px 0;
+   }
+   .emhead{
+     margin: 0 auto;
+     width: 900px;
+     
+   }
+   .emhead h2{
+     letter-spacing: -1px;
+     padding-bo
+   }
+   

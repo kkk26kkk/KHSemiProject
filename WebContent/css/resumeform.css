@@ -1,0 +1,190 @@
+  body{
+    margin: auto;
+  }
+  select{
+    color: #666;
+  }
+  
+  #resumeWraper{
+    position: relative;
+    width: 100%;
+    background: #ebeef3;
+  }
+  .resumeContainer{
+    padding-top: 50px;
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    text-align: left;
+  }
+  
+  #resumetitle{
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 0 28px;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    letter-spacing: -2px;
+    font-size: 30px;
+  }
+  
+  .form{
+    position: relative;
+    width: 900px;
+    margin-bottom: 34px;
+    padding: 20px 20px 10px;
+    background-color: #fff;
+    border: 1px solid #dbe0e9;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .input{
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    width: 160px;
+    height: 62px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+    background-color: #fff;
+    padding: 8px;
+    letter-spacing: -1px;
+    font-size: 15px;
+  }
+  
+  .t{
+    letter-spacing: -1px;
+	font-size: 22px;
+    margin: 40px 0 7px 0;
+  }
+  
+  .inp_file{
+    width: 140px;
+  }
+  .inp_email{
+    width: 200px;
+  }
+  .inp_gender{
+    width: 120px;
+  }  
+  .inp_addr{
+    width: 511px;
+  }
+  .inp_adser{
+    margin-left: -16px;
+    width: 156px;
+    background: #dbe0e9;
+    text-align: center;
+  }
+  .inp_sname{
+    width: 350px;
+    margin-left: -16px;
+  }
+  .inp_sdog{
+    margin-left: -16px;
+  }
+  .inp_major{
+    width: 509px;
+  }
+  .inp_ename{
+    width: 230px;
+  }
+  .inp_dept{
+    width: 230px;
+    margin-left: -16px;
+  }
+  .inp_doa{
+    width: 110px;
+  }
+  .inp_dog{
+    width: 110px;
+    margin-left: -16px;
+  }
+  .inp_rank{
+    width: 150px;
+    margin-left: -17px;
+  }
+  .inp_cen{
+    width: 430px;
+  }
+  .inp_pub{
+    width: 240px;
+  }
+  .inp_cac{
+    width: 145px;
+  }
+  .inp_lan{
+    width: 300px;
+  }
+  
+  .ta{
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0 0 0 1px;
+    border: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .divinp{
+    width: 100%;
+  }
+  
+  .inp_prs{
+    width: 100%;
+    margin: 0 0 -1px 0;
+  }
+  
+  .prc{
+    display: block;
+    z-index: 2;
+    width: 100%;
+	padding: 7px;
+    background-color: transparent;
+    overflow: auto;
+    resize: none;
+    box-sizing: border-box;
+    border: 0;
+    color: #333;
+    line-height: 1.55;
+    height: 500px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    font-family:"Malgun Gothic", Times, serif;
+  }
+  .inp_dessal, .inp_region, .inp_duty, .inp_industry{
+    margin-left: -5px;
+  }
+  
+  #submitbtn{
+    margin-top: 60px;
+    background: #3399ff;
+    width: 100%;
+    border: none;
+    height: 60px;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 22px;
+  }
+
+  #resumetitle, .input:focus, .prc:focus{
+    outline: none;
+  }

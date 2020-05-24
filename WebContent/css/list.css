@@ -1,0 +1,81 @@
+body{
+	margin: 0 auto;
+	background: #ebeef3;
+}
+#applistwrap{
+	 position: relative;
+ 	 width: 100%;
+ padding-top: 50px;
+}
+#applistcontainer{
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    padding: 50px;
+    background: #fff;
+	}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+tr:first-child{
+	background-color : #3399ff;
+	border: 1px solid #3399ff;
+}
+th , font{
+padding : 14px 0 16px 0;
+font-size : 17px;
+line-height : 120%;
+letter-spacing : -1px;
+color : white;
+}
+td{
+   padding: 10px;
+   border: 1px solid #666;
+}
+tr:hover td {
+   background: #ebeef3;
+}
+input {
+    height: 40px;
+    border : none;
+    background: #666;
+   	color: white;
+   	font-weight: bold;
+}
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	}
+	.button:hover {
+		text-decoration: none;
+	}
+	.button:active {
+		position: relative;
+		top: 1px;
+	}
+.head{
+	margin: 0 auto;
+    width: 900px	
+}
+.head h2{
+	letter-spacing: -1px;	
+}
+	

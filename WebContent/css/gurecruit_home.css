@@ -1,0 +1,193 @@
+  body{
+  	margin: 0 auto;
+/*   	background: #ebeef3; */
+  }
+  
+   
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  #searchtitle{
+    padding: 20px;
+    margin: 1px 0 0 460px;
+    letter-spacing: -2px;
+    font-size: 22px;
+  }
+  
+  table{
+    margin: auto;
+    text-align: center;
+  }  
+  
+  #searchwrap{
+    background: #ebeef3;
+    padding-bottom: 30px;
+  }
+  
+  .searchArea{
+    background: #fff;
+    border: 1px solid lightgray;
+    width: 960px;
+    margin: 0 480px;
+  }
+  
+  .searchheader{
+  	text-align: center;
+    width: 160px;
+    height: 42px;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .searchcontent{
+  	width: 160px;
+  	height: 42px;
+  	display: inline-block;
+  }
+  
+  .shsub{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 0;
+  	width: 160px;
+  	height: 160px;
+  	display: inline-block;
+  	box-sizing: border-box;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	border-top: 1px solid #ebeef3;
+  }
+  .shsub li{
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 13px;
+    width: 160px;
+  	padding-top: 15px;
+  }
+  
+  .inp_chk{
+    display: none;
+  }
+  
+  #resultset{
+    position: relative;
+/*     width: 990px; */
+    height: 50px;
+    padding: 5px;
+    border-top: 1px solid #ebeef3;
+  }
+  
+  #filterbtn{
+    width: 130px;
+    height: 34px;
+    position: absolute; /* absolute */
+    left: 815px;
+    top: 14px;
+    background-color: #3399ff;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border: none;
+  }
+  
+  #resetbtn{
+  	position: absolute;
+  	color: #666;
+    top: 20px;
+    right: 155px;
+    background: transparent;
+    border: none;
+    letter-spacing: -1px;
+    font-size: 0.8em;
+  }
+  
+  ul > li:hover{
+    font-weight: bold;
+  	color: #3399ff;
+  }
+  
+  #resultitems{
+    margin: 0;
+    padding: 0px;
+    max-width: 772px;
+    position: absolute;
+    top: 17px;
+  }
+
+  #resultitems li{
+    float: left;
+  }
+  
+  #resultitems button{
+    font-weight: bold;
+    font-size: 0.8em;
+    background: transparent;
+    border: 0;
+    color: #3399ff;
+  }
+  
+  #listwrap{
+    margin: 30px 480px;
+  }
+
+  #reclist{
+    width: 960px;
+    border: 1px solid lightgray;
+    height: 60px;
+    background: #fff;
+    border-collapse:collapse;
+  }
+  
+  #reclist tr{
+    border: 1px solid lightgray;
+  }
+  
+  #reclist tbody td{
+    height: 70px;
+  }
+  #reclist tfoot td{
+    height: 50px;
+  }
+  
+  #reclist tr:hover{
+    background: #F8F7F7;
+  }
+  
+  #reclist td:nth-child(1){
+  	width: 20%;
+  	font-size: 1.1em;
+  }
+  
+  #reclist td:nth-child(2){
+    padding-left: 30px;
+    letter-spacing: -1px;
+    width: 67%;
+    text-align: left;
+  }
+  #reclist td:nth-child(2) a{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  #reclist td:nth-child(3){
+  	letter-spacing: -1px;
+  	width: 13%
+  }
+  #reclist td:nth-child(3) a{
+    background: #ff7e00;
+    padding: 6px;
+    letter-spacing: -1px;
+    width: 13%;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #fff;
+  }
+  #reclist td:nth-child(3) a > span{
+    font-weight: normal;
+  }
+  

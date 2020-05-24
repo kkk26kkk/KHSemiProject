@@ -1,0 +1,97 @@
+body{
+	margin: 0 auto;
+	background: #ebeef3;
+}
+#infoformwrap{
+	position: relative;
+  	width: 100%;
+ 	padding-top: 50px;
+}
+#infoformcontainer{
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    background: #fff;
+}
+
+#h2e{
+	margin: 0;
+	padding: 20px 10px 0 5px;
+	letter-spacing: -1px;
+    font-size: 22px;
+}
+.head{
+	margin: 0 auto;
+    width: 900px;
+    padding-left: 30px;
+}
+form{
+	width : 800px;
+	border : none;
+    margin: 0 auto 80px;
+    padding-bottom: 50px;
+}
+.vital{
+	position : relative;
+	top : 3px;
+	left : -4px;
+	color: #ff6633;
+	font-size : 17px;
+	font-weight : bold;
+	display : inline-block;
+}
+label{
+	font-size : 20px;
+	postion : relative;
+	letter-spacing : -1.4px;
+	font-family: "¸¼Àº °íµñ";
+	margin-bottom: 6px;
+    display: inline-block;
+}
+::placeholder, option{
+	color : #3399ff;
+	font-size : 18px;
+}
+.button, .file{
+	width : 100%;
+	height : 60px;
+	line-height : 40px;
+	border : none;
+	background-color : #ebeef3;
+	font-size : 16px;
+	color : #3399ff;
+	letter-spacing : -0.5px;
+	padding: 0 32px 0 17px;
+	box-sizing: border-box;
+}
+.file{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.select {
+    width: 100%;
+    height: 60px;
+    padding: 0 32px 0 10px;
+    border: none;
+    background-color: #ebeef3;
+    font-size: 18px;
+    color: #3399ff;
+    letter-spacing: -0.5px;
+/*     text-align: left; */
+    position: relative;
+}
+.a {
+    display: inline-block;
+    font-size: 13px;
+    background: #3399ff;
+    box-sizing: border-box;
+    width: 362px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "¸¼Àº °íµñ", Malgun Gothic, "µ¸¿ò", Dotum, sans-serif;
+	color : white;
+	border: none;
+	width: 100%;
+	
+}

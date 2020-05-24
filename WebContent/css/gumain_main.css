@@ -1,0 +1,68 @@
+  #main{
+    margin: 1px auto 0 auto;
+    background: #ebeef3;
+    height: 100%;
+  }
+  
+  table{
+    margin: auto;
+    text-align: center;
+  }  
+  
+  .searchArea{
+    border: 1px solid lightgray;
+    width: 990px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .searchheader{
+  	text-align: center;
+    width: 160px;
+    height: 42px;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .searchcontent{
+  	width: 160px;
+  	height: 42px;
+  	display: inline-block;
+  }
+  
+  .shsub{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    padding-left: 25px;
+  	width: 160px;
+  	height: 160px;
+  	display: inline-block;
+  	box-sizing: border-box;
+  }
+  .shsub li{
+  	list-style: none;
+    font-size: 13px;
+    width: 160px;
+  	padding-top: 15px;
+  }
+  
+  #guwrap{
+    border: 1px solid red;
+    width:400px;
+  }
+  
+  #logingu{
+    border: 1px solid red;
+    width: 400px;
+  }
+  
+  #euwrap{
+    border: 1px solid red;
+    width:400px;
+  }
+  
+  #logineu{
+  	border: 1px solid red;
+    width: 400px;
+  }
+  
